@@ -1,1 +1,140 @@
-not me too
+ /* Base styles */
+ * {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+ }
+
+ body {
+  font-family: papyrus, cursive;
+  font-weight: bold;
+  font-size: 17px;
+ }
+
+ h1 {
+  font-size: 175%;
+  text-align: center;
+  margin: 100px;
+  font-weight: bolder;
+  color: maroon;
+ }
+
+ .main {
+  width: 100%;
+ }
+
+ .paddinglove {
+  padding-left: 30px;
+ }
+
+ .paddinglearning {
+  padding-left: 30px;
+  padding-right: 30px;
+ }
+
+ .paddinghope {
+  padding-right: 30px
+ }
+
+ .content {
+  height: 250px;
+  border: 1px solid black;
+ }
+
+ .title {
+  margin-right: -1px;
+  margin-top: -1px;
+  margin-bottom: 10px;
+  width: 30%;
+  height: 35px;
+  border: 1px solid black;
+  float: right;
+  text-align: center;
+  font-size: 125%;
+ }
+
+ .p {
+  clear: right;
+  text-align: justify;
+  padding: 10px;
+ }
+
+ .love {
+  background-color: greenyellow;
+ }
+
+ .backgroundlove {
+  background-color: lightpink;
+ }
+
+ .learning {
+  background-color: yellow;
+ }
+
+ .backgroundlearning {
+  background-color: skyblue;
+ }
+
+ .hope {
+  background-color: mediumaquamarine;
+ }
+
+ .backgroundhope {
+  background-color: gold;
+ }
+
+ /* Desktop Layout*/
+ @media (min-width: 992px) {
+
+  .contentl {
+    float: left;
+    width: 33.33%;
+  }
+
+ }
+
+ /* Tablet Layout */
+ @media (min-width: 768px) and (max-width: 991px) {
+
+
+  .contentm1,
+  .contentm2 {
+    float: left;
+    width: 50%;
+  }
+
+  .contentm3 {
+    clear: left;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+
+  h1 {
+    margin: 50px;
+  }
+ }
+
+ /* Mobile Layout */
+ @media (max-width: 767px) {
+
+  .contents1 {
+    padding-right: 30px;
+  }
+
+  .contents2 {
+    padding-top: 30px;
+  }
+
+  .contents3 {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  h1 {
+    margin: 50px;
+  }
+
+ }
